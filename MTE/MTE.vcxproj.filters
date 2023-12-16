@@ -4,6 +4,9 @@
     <Filter Include="MTE">
       <UniqueIdentifier>{8B05880B-F70E-887C-808A-9E7CEC92937C}</UniqueIdentifier>
     </Filter>
+    <Filter Include="MTE\Events">
+      <UniqueIdentifier>{0FA7E41E-FB5E-266C-6466-FFC7503DC15C}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\MTE.h" />
@@ -16,13 +19,21 @@
     <ClInclude Include="src\MTE\EntryPoint.h">
       <Filter>MTE</Filter>
     </ClInclude>
+    <ClInclude Include="src\MTE\Events\ApplicationEvent.h">
+      <Filter>MTE\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MTE\Events\Event.h">
+      <Filter>MTE\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MTE\Events\KeyEvent.h">
+      <Filter>MTE\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MTE\Events\MouseEvent.h">
+      <Filter>MTE\Events</Filter>
+    </ClInclude>
     <ClInclude Include="src\MTE\Log.h">
       <Filter>MTE</Filter>
     </ClInclude>
-    <ClInclude Include="src\MTE\Events\Event.h" />
-    <ClInclude Include="src\MTE\Events\KeyEvent.h" />
-    <ClInclude Include="src\MTE\Events\ApplicationEvent.h" />
-    <ClInclude Include="src\MTE\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MTE\Application.cpp">
