@@ -19,6 +19,10 @@
     <ClInclude Include="src\MTE\Log.h">
       <Filter>MTE</Filter>
     </ClInclude>
+    <ClInclude Include="src\MTE\Events\Event.h" />
+    <ClInclude Include="src\MTE\Events\KeyEvent.h" />
+    <ClInclude Include="src\MTE\Events\ApplicationEvent.h" />
+    <ClInclude Include="src\MTE\Events\MouseEvent.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MTE\Application.cpp">
