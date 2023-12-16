@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MTE">
+      <UniqueIdentifier>{8B05880B-F70E-887C-808A-9E7CEC92937C}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MTE.h" />
+    <ClInclude Include="src\MTE\Application.h">
+      <Filter>MTE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MTE\Core.h">
+      <Filter>MTE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MTE\EntryPoint.h">
+      <Filter>MTE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MTE\Log.h">
+      <Filter>MTE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\MTE\Application.cpp">
+      <Filter>MTE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MTE\Log.cpp">
+      <Filter>MTE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
