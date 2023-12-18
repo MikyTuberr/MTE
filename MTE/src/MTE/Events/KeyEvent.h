@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace MTE {
 	class MTE_API KeyEvent : public Event
 	{

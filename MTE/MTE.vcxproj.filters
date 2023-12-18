@@ -34,6 +34,7 @@
     <ClInclude Include="src\MTE\Log.h">
       <Filter>MTE</Filter>
     </ClInclude>
+    <ClInclude Include="src\hzpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MTE\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\MTE\Log.cpp">
       <Filter>MTE</Filter>
     </ClCompile>
+    <ClCompile Include="src\hzpch.cpp" />
   </ItemGroup>
 </Project>

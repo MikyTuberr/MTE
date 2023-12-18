@@ -17,6 +17,9 @@ project "MTE"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
+	
+	pchheader "hzpch.h"
+	pchsource "MTE/src/hzpch.cpp"
 
 	files
 	{

@@ -2,9 +2,6 @@
  
 #include "Event.h"
 
-#include <sstream>
-
-
 namespace MTE {
 
 	class MTE_API MouseMovedEvent : public Event
