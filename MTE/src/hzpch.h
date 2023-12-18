@@ -15,3 +15,5 @@
 #ifdef MTE_PLATFORM_WINDOWS
 	#include <Windows.h>
 #endif
+
+#include "MTE/Log.h"

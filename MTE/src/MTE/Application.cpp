@@ -2,35 +2,25 @@
 #include "Application.h"
 
 #include "MTE/Events/ApplicationEvent.h"
-#include "MTE/Log.h"
+
+#include <GLFW/glfw3.h>
 
 namespace MTE 
 {
 	Application::Application() 
 	{
-
+		m_Window = std::unique_ptr<Window>(Window::Create());
 	}
 
-	Application::~Application() 
-	{
-
-	}
+	Application::~Application() = default;
 
 	void Application::Run() 
 	{
-		WindowResizeEvent e(1200, 720);
-		AppTickEvent a;
-		if (e.IsInCategory(EventCategoryApplication)) 
+		while (m_Running)
 		{
-			MTE_INFO(e);
-			MTE_WARN(a);
+			glClearColor(1, 0, 1, 1);
+			glClear(GL_COLOR_BUFFER_BIT);
+			m_Window->OnUpdate();
 		}
-		if (e.IsInCategory(EventCategoryInput))
-		{
-			MTE_INFO(e);
-			MTE_WARN(a);
-		}
-		
-		while (true);
 	}
 }
