@@ -37,6 +37,12 @@
     <ClInclude Include="src\MTE\Events\MouseEvent.h">
       <Filter>MTE\Events</Filter>
     </ClInclude>
+    <ClInclude Include="src\MTE\Layer.h">
+      <Filter>MTE</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MTE\LayerStack.h">
+      <Filter>MTE</Filter>
+    </ClInclude>
     <ClInclude Include="src\MTE\Log.h">
       <Filter>MTE</Filter>
     </ClInclude>
@@ -47,11 +53,15 @@
       <Filter>Platforms\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\hzpch.h" />
-    <ClInclude Include="src\MTE\Layer.h" />
-    <ClInclude Include="src\MTE\LayerStack.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\MTE\Application.cpp">
+      <Filter>MTE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MTE\Layer.cpp">
+      <Filter>MTE</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MTE\LayerStack.cpp">
       <Filter>MTE</Filter>
     </ClCompile>
     <ClCompile Include="src\MTE\Log.cpp">
@@ -61,7 +71,5 @@
       <Filter>Platforms\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\hzpch.cpp" />
-    <ClCompile Include="src\MTE\Layer.cpp" />
-    <ClCompile Include="src\MTE\LayerStack.cpp" />
   </ItemGroup>
 </Project>

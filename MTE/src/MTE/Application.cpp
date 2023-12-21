@@ -1,7 +1,9 @@
 #include "hzpch.h"
 #include "Application.h"
 
-#include <GLFW/glfw3.h>
+#include "MTE/Log.h"
+
+#include <glad/glad.h>
 
 namespace MTE 
 {

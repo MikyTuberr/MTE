@@ -13,8 +13,10 @@ outputdir = "%{cfg.buildcfg}-%{cfg.system}-%{cfg.architecture}"
 -- Include directories relative to root folder (solution directory)
 IncludeDir = {}
 IncludeDir["GLFW"] = "MTE/vendor/GLFW/include"
+IncludeDir["Glad"] = "MTE/vendor/Glad/include"
 
 include "MTE/vendor/GLFW"
+include "MTE/vendor/Glad"
 
 project "MTE"
 	location "MTE"
@@ -37,12 +39,14 @@ project "MTE"
 	{
 		"%{prj.name}/src",
 		"%{prj.name}/vendor/spdlog/include;",
-		"%{IncludeDir.GLFW}"
+		"%{IncludeDir.GLFW}",
+		"%{IncludeDir.Glad}"
 	}
 
 	links 
 	{
 		"GLFW",
+		"Glad",
 		"opengl32.lib",
 		"dwmapi.lib"
 	}
@@ -55,7 +59,8 @@ project "MTE"
 		defines 
 		{
 				"MTE_PLATFORM_WINDOWS",
-				"MTE_BUILD_DLL"
+				"MTE_BUILD_DLL",
+				"GLFW_INCLUDE_NONE"
 		}
 
 		postbuildcommands
