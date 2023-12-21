@@ -66,14 +66,17 @@ project "MTE"
 
 	filter "configurations:Debug"
 		defines "MTE_DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
 		defines "MTE_RELEASE"
+		buildoptions "/MD"
 		symbols "On"
 
 	filter "configurations:Dist"
 		defines "MTE_DIST"
+		buildoptions "/MD"
 		symbols "On"
 
 project "Sandbox"
@@ -114,12 +117,15 @@ project "Sandbox"
 
 	filter "configurations:Debug"
 		defines "MTE_DEBUG"
+		buildoptions "/MDd"
 		symbols "On"
 
 	filter "configurations:Release"
 		defines "MTE_RELEASE"
+		buildoptions "/MD"
 		symbols "On"
 
 	filter "configurations:Dist"
 		defines "MTE_DIST"
+		buildoptions "/MD"
 		symbols "On"

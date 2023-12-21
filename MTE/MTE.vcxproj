@@ -144,6 +144,8 @@
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\MTE\LayerStack.h" />
+    <ClInclude Include="src\MTE\Layer.h" />
     <ClInclude Include="src\MTE.h" />
     <ClInclude Include="src\MTE\Application.h" />
     <ClInclude Include="src\MTE\Core.h" />
@@ -158,6 +160,8 @@
     <ClInclude Include="src\hzpch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\MTE\LayerStack.cpp" />
+    <ClCompile Include="src\MTE\Layer.cpp" />
     <ClCompile Include="src\MTE\Application.cpp" />
     <ClCompile Include="src\MTE\Log.cpp" />
     <ClCompile Include="src\Platforms\Windows\WindowsWindow.cpp" />
