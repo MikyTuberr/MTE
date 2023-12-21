@@ -10,6 +10,8 @@ MTE is a 2D game engine project that is currently under development. The goal of
 
 - **Event System:** A robust event system is being implemented to handle various in-game events efficiently. This system aims to provide a flexible mechanism for managing interactions within the game.
 
+- **Layers System:** The Layers System in MTE provides a powerful organizational structure for handling various elements within your 2D game. Layers are a fundamental concept in game development, offering a flexible way to manage the rendering order and interactions between different components.
+
 ## Getting Started
 
 To get started with MTE, follow these steps:
