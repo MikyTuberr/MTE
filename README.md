@@ -12,6 +12,10 @@ MTE is a 2D game engine project that is currently under development. The goal of
 
 - **Layers System:** The Layers System in MTE provides a powerful organizational structure for handling various elements within your 2D game. Layers are a fundamental concept in game development, offering a flexible way to manage the rendering order and interactions between different components.
 
+- **ImGui Integration:** MTE seamlessly integrates ImGui, a popular GUI toolkit, to provide developers with an easy-to-use interface for tweaking parameters, inspecting variables, and debugging their games.
+
+- **Glad (OpenGL):** MTE utilizes Glad, a library for loading OpenGL functions, to ensure compatibility and efficient rendering on a variety of systems. This allows developers to take full advantage of OpenGL capabilities in their 2D game projects.
+
 ## Getting Started
 
 To get started with MTE, follow these steps:
