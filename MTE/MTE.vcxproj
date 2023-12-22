@@ -160,8 +160,8 @@
     <ClInclude Include="src\MTE\LayerStack.h" />
     <ClInclude Include="src\MTE\Log.h" />
     <ClInclude Include="src\MTE\Window.h" />
-    <ClInclude Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.h" />
-    <ClInclude Include="src\Platforms\Windows\WindowsWindow.h" />
+    <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h" />
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h" />
     <ClInclude Include="src\hzpch.h" />
   </ItemGroup>
   <ItemGroup>
@@ -170,8 +170,8 @@
     <ClCompile Include="src\MTE\Layer.cpp" />
     <ClCompile Include="src\MTE\LayerStack.cpp" />
     <ClCompile Include="src\MTE\Log.cpp" />
-    <ClCompile Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.cpp" />
-    <ClCompile Include="src\Platforms\Windows\WindowsWindow.cpp" />
+    <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp" />
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp" />
     <ClCompile Include="src\hzpch.cpp">
       <PrecompiledHeader>Create</PrecompiledHeader>
     </ClCompile>

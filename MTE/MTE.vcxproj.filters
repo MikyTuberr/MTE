@@ -58,10 +58,10 @@
     <ClInclude Include="src\MTE\Window.h">
       <Filter>MTE</Filter>
     </ClInclude>
-    <ClInclude Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.h">
+    <ClInclude Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.h">
       <Filter>Platforms\OpenGL</Filter>
     </ClInclude>
-    <ClInclude Include="src\Platforms\Windows\WindowsWindow.h">
+    <ClInclude Include="src\Platform\Windows\WindowsWindow.h">
       <Filter>Platforms\Windows</Filter>
     </ClInclude>
     <ClInclude Include="src\hzpch.h" />
@@ -82,10 +82,10 @@
     <ClCompile Include="src\MTE\Log.cpp">
       <Filter>MTE</Filter>
     </ClCompile>
-    <ClCompile Include="src\Platforms\OpenGL\ImGuiOpenGLRenderer.cpp">
+    <ClCompile Include="src\Platform\OpenGL\ImGuiOpenGLRenderer.cpp">
       <Filter>Platforms\OpenGL</Filter>
     </ClCompile>
-    <ClCompile Include="src\Platforms\Windows\WindowsWindow.cpp">
+    <ClCompile Include="src\Platform\Windows\WindowsWindow.cpp">
       <Filter>Platforms\Windows</Filter>
     </ClCompile>
     <ClCompile Include="src\hzpch.cpp" />
